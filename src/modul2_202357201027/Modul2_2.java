@@ -18,7 +18,7 @@ public class Modul2_2 {
         } else if (jenisBangun.equalsIgnoreCase("bola")) {
             volume = (4 * Math.PI * Math.pow(jari2, 3)) / 3;
         } else {
-            System.out.println("Jenis bangun tidak valid!");
+            System.out.println("Jenis bangun tidak ada");
         }
         return volume;
     }

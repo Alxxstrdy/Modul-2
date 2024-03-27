@@ -8,13 +8,13 @@ try {
 System.out.println(bil / 0);
 System.out.println(b[3]);
 } catch (ArithmeticException ai) {
-System.out.println("Error Aritmetik");
+System.out.println("Error oy");
 System.out.println(ai.getMessage());
 } catch (ArrayIndexOutOfBoundsException n) {
-System.out.println("Error karena melebihi kapasitas array");    
+System.out.println("Error");    
 System.out.println(n.getMessage());
 } catch (Exception e) {
-System.out.println("Ada error");
+System.out.println("Error cuy");
     System.out.println(e.getMessage());
             }   
         }

@@ -39,7 +39,7 @@ public class Modul2_3 {
             double diameterLingkaran = Double.parseDouble(JOptionPane.showInputDialog("Masukkan diameter lingkaran:"));
             luas = luasLingkaran(diameterLingkaran);
         } else {
-            JOptionPane.showMessageDialog(null, "Pilihan tidak valid!");
+            JOptionPane.showMessageDialog(null, "Pilihan tidak ada!");
             System.exit(0);
         }
 
