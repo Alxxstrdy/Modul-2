@@ -12,11 +12,11 @@ public class Modul2_2 {
         double volume = 0;
         int jari2 = diameter / 2;
         if (jenisBangun.equalsIgnoreCase("tabung")) {
-            volume = luas_lingkaran(diameter) * tinggi;
+            volume = Math.PI * Math.pow(jari2, 2) * tinggi;
         } else if (jenisBangun.equalsIgnoreCase("kerucut")) {
-            volume = (luas_lingkaran(diameter) * tinggi) / 3;
+            volume = (1.0/3.0) * Math.PI * Math.pow(jari2, 2) * tinggi;
         } else if (jenisBangun.equalsIgnoreCase("bola")) {
-            volume = (4 * Math.PI * Math.pow(jari2, 3)) / 3;
+            volume = (4.0/3.0) * Math.PI * Math.pow(jari2, 3);
         } else {
             System.out.println("Jenis bangun tidak ada");
         }
